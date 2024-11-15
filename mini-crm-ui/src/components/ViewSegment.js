@@ -4,7 +4,7 @@ import '../ViewSegment.css';
 
 function SegmentList() {
   const [segments, setSegments] = useState([]);
-
+ axios.defaults.baseURL = 'http://mini-crm-rho.vercel.app';
   // Fetch data from API
   useEffect(() => {
     axios

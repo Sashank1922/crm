@@ -4,7 +4,7 @@ import '../ViewCampaigns.css'; // Import CSS file for styling
 
 function CampaignList() {
   const [campaigns, setCampaigns] = useState([]);
-
+ axios.defaults.baseURL = 'http://mini-crm-rho.vercel.app';
   // Fetch data from API
   useEffect(() => {
     axios

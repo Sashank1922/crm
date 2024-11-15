@@ -20,7 +20,7 @@ function SegmentCreation() {
 
     try {  
       // Replace this URL with your actual API endpoint  
-      axios.defaults.baseURL = 'https://mini-crm-rho.vercel.app/';
+      axios.defaults.baseURL = 'http://mini-crm-rho.vercel.app';
       const response = await axios.post('/api/segments', segmentData);  
       alert('Segment created successfully: ' + JSON.stringify(response.data));  
       // Reset form fields  
