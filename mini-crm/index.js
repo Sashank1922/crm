@@ -8,7 +8,7 @@ const segmentController = require('./controllers/segmentController');
 const campaignController = require('./controllers/campaignController');
 const deliveryController = require('./controllers/deliveryController');
 const app = express();
-const cors = require('cors');
+
 // app.use(cors({
 //     origin: ['https://your-frontend-url.vercel.app'],
 //     methods: ['GET', 'POST', 'PUT', 'DELETE'],
